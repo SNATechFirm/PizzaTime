@@ -35,7 +35,7 @@ export default class Header extends React.Component {
               ResetLocation();
               this.RemoveMenu();
             }}
-            to="/pizza-time-with-react"
+            to="/pizzaTime"
             className="logo-styling flex-container flex-row txt-center txt-white"
           >
             <img className="logo" src={logo} alt="pizza time logo" />
@@ -59,7 +59,7 @@ export default class Header extends React.Component {
                     : {}
                 }
                 className="txt-white"
-                to="/pizza-time-with-react"
+                to="/pizzaTime"
               >
                 <>Home</>
               </NavLink>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter,Redirect, Navigate  } from "react-router-dom";
 //Components
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
@@ -355,10 +355,15 @@ export default class App extends React.Component {
           ResetLocation={this.ResetLocation}
         />
         <Routes>
+        
           <Route
-            path="/pizza-time-with-react"
+            path="/pizzaTime"
             element={<RootSection ResetLocation={this.ResetLocation} />}
           />
+          <Route
+            path="/"
+            element={<Navigate to='/pizzaTime' replace />}
+          />  
           <Route
             path="/menu"
             element={

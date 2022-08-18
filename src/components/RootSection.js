@@ -61,8 +61,8 @@ class ContactUsLanding extends React.Component {
             <p>Contact us if you have any questions</p>
           </div>
           <div>
-            <h2>506 Roy Alley 80202 </h2>
-            <p>Colorado, Denver</p>
+            <h2>176 Bramha Plazza 395009 </h2>
+            <p>Surat, Gujrat</p>
           </div>
           <div>
             <h2>Open Monday-Friday</h2>
@@ -277,7 +277,7 @@ class PizzaMenuPreview extends React.Component {
               <p>
                 If pepperoni just isn’t enough, and you’re looking for a pie
                 with a bit more heft, a meat pizza is a perfect and popular
-                choice.{" "}
+                choice
               </p>
               <div className="meal-item-order flex-container flex-row txt-center">
                 <p>
@@ -592,8 +592,7 @@ class StatsPreview extends React.Component {
   }
 }
 const MenuSliderCategory = [
-  {
-    name: "pizza",
+{    name: "pizza",
     id: "pizza",
   },
   {
@@ -611,7 +610,7 @@ const MenuSliderProduct = [
     name: "Pepperoni Pizza",
     describtion:
       "Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.",
-    price: (5).toFixed(2),
+    price: (499).toFixed(2),
     img: PepperoniPizza,
     category: "pizza",
   },
@@ -620,7 +619,7 @@ const MenuSliderProduct = [
     name: "BBQ Chicken Pizza",
     describtion:
       "Rotisserie chicken, pizza dough, bbq sauce, smoked cheddar cheese, mozzarella cheese.",
-    price: (10).toFixed(2),
+    price: (799).toFixed(2),
     img: BBQPizza,
     category: "pizza",
   },
@@ -628,7 +627,7 @@ const MenuSliderProduct = [
     id: "cheese-pizza",
     name: "Cheese Pizza",
     describtion: "Pizza dough, pizza sauce, provolone cheese, mozzarella.",
-    price: (5).toFixed(2),
+    price: (649).toFixed(2),
     img: CheesePizza,
     category: "pizza",
   },
@@ -701,7 +700,7 @@ class MenuSliderProducts extends React.Component {
             {singleProduct.describtion}
           </p>
           <p className="dish-details-pricing">
-            <span>₹</span>249            {singleProduct.price}
+            <span>₹</span>  {singleProduct.price}
           </p>
         </section>
       </div>
@@ -862,9 +861,7 @@ class BlogPreview extends React.Component {
       <article className="section-9 flex-container flex-column">
         <h2 className="txt-center pop-font txt-white">Recent from blog</h2>
         <p className="section-description">
-          Vestibulum et viverra massa, a malesuada lacus. Curabitur quis elit
-          eget metus porttitor sollicitudin at in nulla. Integer mollis orci vel
-          consequat eleifend. Fusce sollicitudin feugiat magna et facilisis.
+         Eat Read and Repeat
         </p>
         <section className="blog-posts-landing">
           {/* Post 1 */}
